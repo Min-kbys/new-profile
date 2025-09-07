@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <link rel="stylesheet" href="./new-portfolio.css">
+    <title>MY PORTFOLIO | Hitomi Kobayashi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Caveat:wght@400..700&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <meta charset="utf-8">
+</head>
+
+<body>
+    <!------------------------------
+　　　　　　　ヘッダーページ
+    -------------------------------->
+    <header>
+        <div class="header-list-left header-list">
+            <ul>
+                <li><a href="#">Top</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Works</a></li>
+            </ul>
+        </div>
+
+        <div class="header-title">
+            <a href="#">
+                <p>My Portfolio</p>
+            </a>
+        </div>
+
+        <div class="header-list-right header-list">
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+
+    <!------------------------------
+　　　　　　　TOP
+    -------------------------------->
+    <main>
+        <div class="main-left">
+            <div class="main-left-title">
+                <div class="mlt-title">Hitomi's Design</div>
+                <img src="./new-portfolio-image/border-2.png" alt="border">
+            </div>
+
+            <div class="main-left-message">
+                <p class="mlm-1"><span>“伝えたい想い”を、</span><span><br>ちゃんと届くカタチに。</span></p>
+                <p class="mlm-2 sub">Your message, delivered in the right form.</p>
+            </div>
+        </div>
+
+        <div class="main-right">
+            <img src="./new-portfolio-image/main-image.png" alt="トップ画像">
+        </div>
+    </main>
+
+
+    <!------------------------------
+　　　　　　　about
+    -------------------------------->
+    <section>
+        <div class="about-front">
+            <div class="title">
+                <img src="./new-portfolio-image/sub-title-1.png" alt="タイトル">
+                <h1>About</h1>
+            </div>
+
+            <div class="about-contents">
+                <img src="./new-portfolio-image/about-image.png" alt="背景画像">
+                <div class="about-message">
+                    <div class="name">
+                        <p class="name-english">　HITOMI KOBAYASHI　</p>
+                        <p class="name-japanese sub">小林 瞳見</p>
+                    </div>
+                    <div class="role">
+                        <p class="role-english">　Web Designer/　
+                            <br>　Front-end Engineer　
+                        </p>
+                        <p class="role-japanese sub">Webデザイナー/フロントエンドエンジニア</p>
+                    </div>
+                </div>
+            </div>
+            <div class="btn">
+                <a href="#"><img src="./new-portfolio-image/more-icon.png"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------
+　　　　　　　service
+    -------------------------------->
+    <section>
+        <div class="service-front">
+            <div class="title">
+                <img src="./new-portfolio-image/sub-title-2.png" alt="タイトル">
+                <h1>Service</h1>
+            </div>
+
+            <div class="service-contents">
+                <div class="service-content service-content-A">
+                    <div class="sc-title">
+                        <p>デザイン制作</p>
+                        <p class="sc-title-sub">HP/LP/Banner</p>
+                        <img src="./new-portfolio-image/border-1.png">
+                    </div>
+                    <a href="#"><img src="./new-portfolio-image/service-1.png"></a>
+                </div>
+
+                <div class="service-content service-content-B">
+                    <div class="sc-title">
+                        <p>コーディング</p>
+                        <p class="sc-title-sub">HTML/CSS/JavaScript</p>
+                        <img src="./new-portfolio-image/border-1.png">
+                    </div>
+                    <a href="#"><img src="./new-portfolio-image/service-2.png"></a>
+                </div>
+
+                <div class="service-content service-content-">
+                    <div class="sc-title">
+                        <p>WordPress構築</p>
+                        <p class="sc-title-sub">独立テーマ開発等</p>
+                        <img src="./new-portfolio-image/border-1.png">
+                    </div>
+                    <a href="#"><img src="./new-portfolio-image/service-3.png"></a>
+                </div>
+            </div>
+
+            <div class="btn">
+                <a href="#"><img src="./new-portfolio-image/more-icon.png"></a>
+            </div>
+        </div>
+    </section>
+
+    <!------------------------------
+　　　　　　　works
+    -------------------------------->
+    <section>
+        <div class="works-front">
+            <div class="title">
+                <img src="./new-portfolio-image/sub-title-3.png" alt="タイトル">
+                <h1>Works</h1>
+            </div>
+
+            <div class="works-contents">
+                <div class="works-content">
+                    <div class="wc-title">
+                        <p>デザイン制作</p>
+                        <img src="./new-portfolio-image/border-1.png" alt="装飾線">
+                    </div>
+                    <a href="#">
+                        <div class="img-flame"><img src="./new-portfolio-image/works-image-flame.png" alt="フレーム"></div>
+                        <div class="img-works"><img src="./new-portfolio-image/HP-1.png" alt="作品"></div>
+                    </a>
+                </div>
+
+                <div class="works-content">
+                    <div class="wc-title">
+                        <p>コーディング</p>
+                        <img src="./new-portfolio-image/border-1.png" alt="装飾線">
+                    </div>
+                    <a href="#">
+                        <div class="img-flame"><img src="./new-portfolio-image/works-image-flame.png" alt="フレーム"></div>
+                        <div class="img-works"><img src="./new-portfolio-image/HP-2.png" alt="作品"></div>
+                    </a>
+                </div>
+
+                <div class="works-content">
+                    <div class="wc-title">
+                        <p>WordPress構築</p>
+                        <img src="./new-portfolio-image/border-1.png" alt="装飾線">
+                    </div>
+                    <a href="#">
+                        <div class="img-flame"><img src="./new-portfolio-image/works-image-flame.png" alt="フレーム"></div>
+                        <div class="img-works"><img src="./new-portfolio-image/HP-3.png" alt="作品"></div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="btn">
+                <a href="#"><img src="./new-portfolio-image/more-icon.png"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------
+　　　　　　　blog
+    -------------------------------->
+    <section>
+        <div class="blog-front">
+            <div class="title">
+                <img src="./new-portfolio-image/sub-title-4.png" alt="タイトル">
+                <h1>Blog</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <!------------------------------
+　　　　　　 contact
+    -------------------------------->
+    <section>
+        <div class="contact-front">
+            <div class="title">
+                <img src="./new-portfolio-image/sub-title-5.png" alt="タイトル">
+                <h1>Contact</h1>
+            </div>
+        </div>
+    </section>
+
+    
+    <!------------------------------
+　　　　　　　フッターページ
+    -------------------------------->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 100" width="100%">
+        <path
+            d="M -435.20000000000005 90 Q -275.2 90 -115.2 45 Q 204.8 -45 524.8 45 Q 684.8 90 844.8 90 Q 1004.8 90 1164.8 45 Q 1484.8 -45 1804.8 45 Q 1964.8 90 2124.8 90 L 1280 100 L 0 100 Z"
+            fill="#c2bca2"></path>
+    </svg>
+
+    <footer>
+        <div class="footer-contents">
+            <div class="footer-title header-title">
+                <a href="#">
+                    <p>My Portfolio</p>
+                </a>
+            </div>
+            <div class="footer-list">
+                <ul>
+                    <li><a href="#">Top</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="finish">
+            <p>©2025 My Portfolio</p>
+        </div>
+    </footer>
+
+</body>
