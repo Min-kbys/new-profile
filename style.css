@@ -1,0 +1,643 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: url(./new-portfolio-image/background.png);
+    background-size: 50%;
+    color: #333;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+section p {
+    font-family: "Anonymous Pro", monospace;
+}
+
+.sub {
+    color: rgb(144, 144, 144, 0.6);
+    font-size: 13px;
+}
+
+/*------------------------------------------------
+--------------------------------------------------
+front
+--------------------------------------------------
+------------------------------------------------*/
+
+/*----------------------------
+header
+-----------------------------*/
+header {
+    display: flex;
+    color: #333;
+    justify-content: center;
+    font-family: "Anonymous Pro", monospace;
+    width: 100%;
+    height: 80px;
+    border-bottom: #333 solid 1px;
+}
+
+header a,
+footer a {
+    color: #333;
+}
+
+.header-title {
+    padding: 25px 80px 0 80px;
+    font-size: 30px;
+}
+
+.header-list ul,
+.footer-list ul {
+    display: flex;
+    gap: 45px;
+    margin-top: 55px;
+}
+
+.header-list a,
+.footer-list a {
+    font-size: 20px;
+    ;
+}
+
+/*-----------------------------
+main
+------------------------------*/
+main {
+    max-width: 830px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+}
+
+.main-left {
+    margin: 90px 0 0 40px;
+}
+
+.main-left-title {
+    position: relative;
+}
+
+.main-left-title img {
+    position: absolute;
+    left: 10px;
+    top: -40px;
+    width: 300px;
+    height: auto;
+    transform: rotate(10deg);
+    z-index: -1;
+}
+
+.mlt-title {
+    font-size: 60px;
+    font-family: "Caveat", cursive;
+    transform: rotate(-10deg);
+}
+
+.main-left-message {
+    margin-top: 60px;
+    position: relative;
+}
+
+.mlm-1 {
+    font-size: 25px;
+    font-family: "Anonymous Pro", monospace;
+    margin-left: 20px;
+    letter-spacing: 7px;
+    line-height: 2;
+}
+
+.mlm-2 {
+    margin-left: 120px;
+}
+
+.main-right img {
+    width: 400px;
+    height: auto;
+}
+
+/*---------------------------------
+title
+----------------------------------*/
+.title {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title img {
+    width: 150px;
+    height: auto;
+    transform: rotate(2deg);
+}
+
+.title h1 {
+    position: absolute;
+    font-family: "Caveat", cursive;
+    font-size: 50px;
+    color: #3885C4;
+    font-weight: 300;
+}
+
+/*---------------------------------
+about
+----------------------------------*/
+.about-front h1 {
+    top: 23px;
+    left: 577px;
+}
+
+.about-contents {
+    position: relative;
+    margin-top: 30px;
+}
+
+.about-contents img {
+    width: 400px;
+    height: auto;
+    margin: 50px 0 0 300px;
+}
+
+.about-message {
+    position: absolute;
+    top: 150px;
+    right: 300px;
+    text-align: center;
+}
+
+.name-english,
+.role-english {
+    font-size: 28px;
+    letter-spacing: 2.5px;
+    background: linear-gradient(#ffffff 100%);
+    display: inline-block;
+}
+
+.name,
+.role {
+    margin-bottom: 20px;
+}
+
+.about-message .sub {
+    margin: 7px 0 0 120px;
+}
+
+.name .sub {
+    margin-left: 210px;
+}
+
+.about-front .btn {
+    padding-top: 60px;
+}
+
+/*---------------------------------
+btn
+----------------------------------*/
+.btn {
+    text-align: center;
+    margin: 20px 0 120px 0;
+}
+
+.btn img {
+    width: 130px;
+    height: auto;
+}
+
+/*--------------------------------
+service
+--------------------------------*/
+.service-front h1 {
+    top: 23px;
+    left: 564px;
+}
+
+.service-contents,
+.works-contents {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 850px;
+    margin: 0 auto;
+    padding-top: 80px;
+
+    text-align: center;
+}
+
+.service-content img,
+.works-content img,
+.wmd-contents img,
+.wsc-img img {
+    width: 250px;
+    height: auto;
+}
+
+.service-content p,
+.works-content p,
+.works-main-design p {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.service-content .sc-title-sub {
+    font-size: 14px;
+    margin: 14px 0 15px 0;
+}
+
+.sc-title,
+.wc-title {
+    position: relative;
+}
+
+.sc-title img,
+.wc-title img {
+    position: absolute;
+    top: 8px;
+    left: 53px;
+    transform: rotate(5deg);
+
+    width: 150px;
+    height: auto;
+    z-index: -1;
+}
+
+/*-----------------------------
+works
+------------------------------*/
+.works-front h1 {
+    top: 23px;
+    left: 575px;
+}
+
+.wc-title {
+    margin-bottom: 20px;
+}
+
+.works-content a {
+    position: relative;
+}
+
+.img-works img {
+    position: absolute;
+    top: 30px;
+    left: -105px;
+    width: 200px;
+    height: auto;
+}
+
+/*-----------------------------
+blog
+-----------------------------*/
+.blog-front h1 {
+    top: 20px;
+    left: 590px;
+}
+
+/*-----------------------------
+contact
+-----------------------------*/
+.contact-front h1 {
+    top: 20px;
+    left: 560px;
+}
+
+/*-----------------------------
+footer
+------------------------------*/
+svg {
+    display: block;
+    margin-bottom: -1px;
+}
+
+footer {
+    background-color: #C2BCA2;
+    text-align: center;
+}
+
+.footer-contents {
+    border: none;
+    font-family: "Anonymous Pro", monospace;
+}
+
+.footer-title p {
+    padding: 0 0 20px 0;
+}
+
+.footer-list ul {
+    justify-content: center;
+}
+
+.finish {
+    font-size: 13px;
+    padding: 50px 0 3px 0;
+}
+
+/*------------------------------------------------
+--------------------------------------------------
+service main-page
+--------------------------------------------------
+------------------------------------------------*/
+.service-main .title {
+    margin-top: 60px;
+}
+
+.service-main h1 {
+    top: 23px;
+    left: 564px;
+}
+
+.service-main-contents {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+    font-family: "Anonymous Pro", monospace;
+}
+
+.service-main-content {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 80px;
+}
+
+.service-main-content img {
+    width: 250px;
+    height: auto;
+}
+
+.smc-title-main {
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.smc-title-sub {
+    font-size: 14px;
+    margin: 14px 0 15px 0;
+}
+
+.smc-title {
+    position: relative;
+    margin-top: 30px;
+}
+
+.smc-title img {
+    position: absolute;
+    top: 8px;
+    left: -10px;
+    transform: rotate(5deg);
+
+    width: 150px;
+    height: auto;
+    z-index: -1;
+}
+
+.smc-message .text {
+    margin: 30px 0;
+}
+
+.smc-message .text p {
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+}
+
+/*------------------------------------------------
+--------------------------------------------------
+works main-page
+--------------------------------------------------
+------------------------------------------------*/
+.works-main {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.works-main h1 {
+    top: 21px;
+    left: 365px;
+}
+
+.works-category-btn {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    padding: 100px 0;
+}
+
+.works-category-btn a {
+    padding: 20px 30px;
+    background: #ffffff;
+    border-radius: 10px;
+    color: #333;
+    font-weight: bold;
+    font-family: "Anonymous Pro", monospace;
+}
+
+.works-main-design p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.works-main-design .wc-title img {
+    left: 350px;
+}
+
+.wmd-contents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.wmd-contents a {
+    position: relative;
+}
+
+.wmd-contents .img-works {
+    position: absolute;
+    top: 0;
+    left: 125px;
+}
+
+/*------------------------------------------------
+--------------------------------------------------
+works single
+--------------------------------------------------
+------------------------------------------------*/
+.works-single,
+.blog-single {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.works-single h1 {
+    top: 21px;
+    left: 290px;
+}
+
+.works-single-header,
+.bsc-day {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    margin: 100px 0 30px 0;
+}
+
+.works-single-header p {
+    margin-bottom: 10px;
+}
+
+.works-single-contents {
+    display: flex;
+    gap: 50px;
+}
+
+.wsc-img {
+    position: relative;
+}
+
+.wsc-img .img-works {
+    position: absolute;
+    top: 0;
+    left: 125px;
+}
+
+.works-message {
+    display: flex;
+    gap: 40px;
+    position: relative;
+}
+
+.wm-left {
+    font-family: "Anonymous Pro", monospace;
+    font-size: 19px;
+}
+
+.wm-left li {
+    margin-bottom: 18px;
+    border-bottom: #ffffff 2.5px solid;
+}
+
+.wm-right {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+}
+
+.wm-right li {
+    margin-bottom: 17px;
+    margin-top: -3px;
+}
+
+.works-single .btn {
+    margin-top: 70px;
+}
+
+/*------------------------------------------------
+--------------------------------------------------
+about-main-page
+--------------------------------------------------
+------------------------------------------------*/
+
+/*------------about--------------*/
+.about-main-page h1 {
+    top: 21px;
+    left: 575px;
+}
+
+.amp-text {
+    margin: 110px 0 110px 0;
+    text-align: center;
+}
+
+.amp-text p {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+/*------------tool---------------*/
+.tool h1 {
+    top: 21px;
+    left: 590px;
+}
+
+.tool-contents {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 80px 0 0 0;
+}
+
+.tool-contents img {
+    width: 120px;
+    height: auto;
+}
+
+.tool,
+.process {
+    margin-bottom: 100px;
+}
+
+/*------------process---------------*/
+.process h1 {
+    top: 21px;
+    left: 560px;
+}
+
+.process-content img {
+    width: 130px;
+    height: auto;
+}
+
+.process-contents {
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 60px;
+}
+
+.process-content {
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.process-contents h2 {
+    font-size: 20px;
+    font-family: "Anonymous Pro", monospace;
+    margin-bottom: 10px;
+    color: #16344d;
+}
+
+.icon img {
+    margin-top: 75px;
+    width: 40px;
+}
+
+.process-content p,
+.bsc-text {
+    font-family: "Inter", sans-serif;
+}
+
+/*------------blog-single---------------*/
+.blog-single h1 {
+    top: 21px;
+    left: 310px;
+}
+
+.blog-single-content h2{
+    font-size: 25px;
+    font-family: "Anonymous Pro", monospace;
+    padding:5px 0 15px 0 ;
+    color: #16344d;
+    border-top: #333 1px solid;
+}
